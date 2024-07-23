@@ -2,11 +2,11 @@ ImagePath: /home/pvarughese/SCRATCH/MACH/images/
 ImageName: 2018-07-28-1816-S3.png
 coords: [[549,585,1098,573]] 
 cellThres: 100
-hypSNR: 0.305
-rodSNR: 0.103
+hypSNR: 0.305 
+rodSNR: 0.103 
 ramSNR: 0.205
-dysSNR: 0.061
+dysSNR: 0.060
 amoeSNR: 0.0515
-somaThres: 0.2
-areaThres: 0.33
-validated: False
+#somaThres: 0.2
+#areaThres: 0.33
+validated: PKH     
