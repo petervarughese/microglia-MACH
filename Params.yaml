@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16db830b7139472659a40c43426b234f2ffdba1f62bcecff55307a2cecbba48f
-size 1832
+#FilterInfo:
+# Faust/Bin FilterDir: "/home/binsun/microglia_MACH/microglia_MACH/filter_images/"
+FilterDir: "/home/pvarughese/microglia_MACH_Peter/filter_images"
+FilterNames:
+  NormalFilters: ['rod','hyp','ram','dys', 'amoe']  # normal MACH filter constructed from cropped cells, added a newrodfiler (120x120 size)
+  PenaltyFilters: ['rodp','hypp','ramp','dysp', 'amoep'] 
+
+hypSNR: 0.32
+rodSNR: 0.110
+ramSNR: 0.211 
+dysSNR: 0.070
+amoeSNR: 0.070
+
+somaThres: 0.2
+areaThres: 0.33
+
+
+# ==== This part is for the test image only, do not change the following ====
+
+#Parameters used for testing the filtering protocol
+InputImage: "./TestImages/newSample.png" #the input image
+TrueImage: "./TestImages/Sample_annotate.png" #the annotated truth image, for validation only. Set as "None" if it is normal run
