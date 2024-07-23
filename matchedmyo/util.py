@@ -1541,7 +1541,7 @@ def decomposeFilter(kernel, verbose=False):
       for key in keys_to_delete:
         del filter_storage[key]
 
-  if len(filter_storage.keys()) is 0:
+  if len(filter_storage.keys()) == 0:
     return kernel
   else:
     return filter_storage
