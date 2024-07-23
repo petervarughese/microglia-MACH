@@ -7,6 +7,7 @@ In the event that the Params.yaml default parameter values are nonoptimal, updat
 
 ## Index
 - google spreadsheet available at https://docs.google.com/spreadsheets/d/1S6Fp3re726sTNgJGzDRFrNZ2M8vzNKbUENbxKszRRtQ/edit?gid=0#gid=0
+- annotate these as files are examined 
 
 ## Validation 
 - At this time, the mach filtering results have not been inspected for the individual images. 
